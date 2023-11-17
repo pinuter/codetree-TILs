@@ -10,7 +10,7 @@ int main() {
         }
     }
     else if(c == 'D'){
-        for(int i = 1; i <= n; i--){
+        for(int i = 1; i <= n; n--){
             printf("%d ", n);
         }
     }
