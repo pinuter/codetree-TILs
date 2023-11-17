@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int cnt = 0;
+    int a, cnt = 0;
     for(int i = 1; i <= 10; i++){
+
+        scanf("%d", &a);
         if(i % 2 == 1){
             cnt++;
         }
