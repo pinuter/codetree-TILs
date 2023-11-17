@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int n, a;
+    int n;
     scanf("%d", &n);
-    a % n == 0;
-    for(int i = n; i <= 5 * n; i += n){
+    
+    for(int i = n; i <= 5 * n; i+=n){
         printf("%d ", i);
     }
     return 0;
