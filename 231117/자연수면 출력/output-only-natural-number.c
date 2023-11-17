@@ -10,10 +10,7 @@ int main() {
         printf("\n");
     }
     else{
-        for(int i = 0; i < b; i++){
-            printf("%d", a);
-    }
-        
+        printf("0");
     }
     return 0;
 
