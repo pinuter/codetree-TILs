@@ -10,6 +10,6 @@ int main() {
             cnt2++;
         }
     }
-    printf("%d", cnt2);
+    printf("%d\n", cnt2);
     return 0;
 }
