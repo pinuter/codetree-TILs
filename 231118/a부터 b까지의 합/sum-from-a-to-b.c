@@ -1,14 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    int sum_val = 0;
     int a, b;
+
+    // 사용자로부터 두 자연수 a와 b 입력 받기
+
     scanf("%d %d", &a, &b);
 
-    for (int i = 1; i <= a; i++) {
-        sum_val += i * b;
+    // a부터 b까지의 합 계산
+    int sum = 0;
+    for (int i = a; i <= b; i++) {
+        sum += i;
     }
 
-    printf("%d\n", sum_val);
+    // 결과 출력
+    printf("%d\n", sum);
+
     return 0;
 }
