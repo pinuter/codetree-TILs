@@ -2,8 +2,9 @@
 
 int main() {
     int n, cnt = 0;
-    scanf("%d", &n);
+    
     for(int i = n; i <= n; i++){
+        scanf("%d", &n);
         if(i % 2 == 1){
             cnt++;
         
