@@ -14,7 +14,7 @@ int main() {
         sum+=arr[i];
         cnt++;
         if(cnt > 0){
-            avg = sum / cnt;
+            avg = (double)sum / cnt;
         }
     }
     printf("%d %.1lf", sum, avg);
