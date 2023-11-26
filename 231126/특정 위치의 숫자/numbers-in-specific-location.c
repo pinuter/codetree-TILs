@@ -8,7 +8,7 @@ int main() {
     int a, b, c;
     a = arr[4];
     b = arr[9];
-    c = arr[3];
+    c = arr[2];
     printf("%d", a+b+c);
     return 0;
 }
