@@ -20,7 +20,7 @@ int main() {
             printf("Good", avr);
         }
         else{
-            printf("poor", avr);
+            printf("Poor", avr);
         }
     
     return 0;
