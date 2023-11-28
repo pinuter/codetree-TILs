@@ -30,27 +30,21 @@ int main() {
             cin >> a;
             cout << arr[a - 1] << endl;
         }
-        // 2번 질의
-        else if (q_type == 2)
+else if (q_type == 2) {
+    cin >> a;
+    int idx = -1;
+
+    for (int j = 99; j >= 0; j--)
+    {
+        if (arr[j] == a)
         {
-            cin >> a;
-            int idx = 0;
-
-            for (int j = 100; j >= 0; j--)
-            {
-                if (arr[j] == a)
-                {
-                    idx = j;
-                    break;
-                }
-                else
-                {
-                    idx = 0;
-                }
-            }
-
-            cout << idx + 1 << endl;
+            idx = j;
         }
+    }
+
+    cout << idx + 1 << endl;
+}
+
         // 3번 질의
         else 
         {
