@@ -9,14 +9,16 @@ int main() {
         
         if(arr[i] == 999||arr[i] == -999){
             break;
-        
+        }
         if(min > arr[i]){
             min = arr[i];
             
         }
         if(max < arr[i]){
-            min = arr[i];
+            max = arr[i];
         }
+        
+    }
         
         if(min == INT_MAX || max == INT_MIN){
             printf("NOPE\n");
@@ -24,7 +26,7 @@ int main() {
         else{
             printf("%d %d\n", max, min);
         }
-    }
-    }
+    
+    
     return 0;
 }
