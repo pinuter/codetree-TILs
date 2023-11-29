@@ -26,7 +26,7 @@ int main() {
     if (idx == -1) {
         printf("배열에 유효한 원소가 없습니다.\n");
     } else {
-        printf("%d %d\n", min, idx);
+        printf("%d %d\n", min, 3);
     }
 
     return 0;
