@@ -33,8 +33,11 @@ int main() {
         printf("%d", len_3 - len);
     } else if (len > len_2 && len > len_3) {
         printf("%d", len - len_2);
-    } else {
-        printf("No difference");
+    } else if(len > len_3 && len_2 > len){
+        printf("%d", len_2 - len_3);
+    }
+    else{
+        printf("%d", len - len_3);
     }
 
     return 0;
