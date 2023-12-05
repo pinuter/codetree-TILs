@@ -27,17 +27,18 @@ int main() {
         }
     }
 
-    if (len_2 > len && len_2 > len_3) {
+    if (len == len_2 && len_2 == len_3) {
+        printf("Same length for all strings");
+    } else if (len_2 > len && len_2 > len_3) {
         printf("%d", len_2 - len);
     } else if (len_3 > len && len_3 > len_2) {
         printf("%d", len_3 - len);
     } else if (len > len_2 && len > len_3) {
         printf("%d", len - len_2);
-    } else if(len > len_3 && len_2 > len){
-        printf("%d", len_2 - len_3);
-    }
-    else{
+    } else if (len > len_3 && len_2 > len) {
         printf("%d", len - len_3);
+    } else {
+        printf("No specific case");
     }
 
     return 0;
