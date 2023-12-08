@@ -18,7 +18,7 @@ int main() {
     if (isComposite) {
         printf("C"); // 합성수일 경우
     } else {
-        printf("D"); // 합성수가 아닐 경우
+        printf("N"); // 합성수가 아닐 경우
     }
 
     return 0;
